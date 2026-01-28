@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirecting...</title>
+    <meta name="robots" content="noindex" />
+    <script type="text/javascript">
+      (function () {
+        var pathSegmentsToKeep = 1;
+        var l = window.location;
+        var path = l.pathname.split('/');
+        var redirectPath = path.slice(1, 1 + pathSegmentsToKeep).join('/');
+        var newPath = path.slice(1 + pathSegmentsToKeep).join('/');
+        l.replace(
+          l.protocol +
+            '//' +
+            l.host +
+            '/' +
+            redirectPath +
+            '/?/' +
+            newPath.replace(/&/g, '~and~') +
+            (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+            l.hash
+        );
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>

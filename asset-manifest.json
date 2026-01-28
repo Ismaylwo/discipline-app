@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/discipline-app/static/css/main.e7b5a883.css",
-    "main.js": "/discipline-app/static/js/main.d9d6cbbd.js",
+    "main.js": "/discipline-app/static/js/main.4a36ed21.js",
     "static/js/453.bc00699c.chunk.js": "/discipline-app/static/js/453.bc00699c.chunk.js",
     "index.html": "/discipline-app/index.html",
     "main.e7b5a883.css.map": "/discipline-app/static/css/main.e7b5a883.css.map",
-    "main.d9d6cbbd.js.map": "/discipline-app/static/js/main.d9d6cbbd.js.map",
+    "main.4a36ed21.js.map": "/discipline-app/static/js/main.4a36ed21.js.map",
     "453.bc00699c.chunk.js.map": "/discipline-app/static/js/453.bc00699c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e7b5a883.css",
-    "static/js/main.d9d6cbbd.js"
+    "static/js/main.4a36ed21.js"
   ]
 }
